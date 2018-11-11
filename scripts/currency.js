@@ -5,11 +5,7 @@ var arrChartDataY = [];
 var counterr = 0;
 // get canvas to draw graph
 var ctx = document.getElementById('myChartNew1').getContext('2d');
-// call globalBtcUsd function every 5 seconds to display current price
-myvar = setInterval(globalBtcUsd, 5000);
-//function to get last 2 hours data and calls drawBTCUSDchart
-globalBtcUsdChart();
-// call drawBTCUSDchart to draw chart for 2 hours data
+
 function drawBTCUSDchart() {
     var config = {
         type: 'line',
@@ -167,5 +163,9 @@ function globalBtcUsdChart() {
             console.log(errorMsg);
         });
 }
-
+// call globalBtcUsd function every 5 seconds to display current price
+myvar = setInterval(globalBtcUsd, 5000);
+//function to get last 2 hours data and calls drawBTCUSDchart
+globalBtcUsdChart();
+// call drawBTCUSDchart to draw chart for 2 hours data
 
