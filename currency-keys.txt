@@ -1,0 +1,14 @@
+ask
+bid
+last
+high
+low
+open - hour ,day week,month,month_3,month_6,week,year
+averages - day,month,week
+volume
+changes
+  percent - hour ,day week,month,month_3,month_6,week,year
+  price    -hour ,day week,month,month_3,month_6,week,year
+volume_precent
+timestamp
+display_timestamp

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800');
+main {
+    margin-top: 4%;
+}
+#header,#displayCities{
+  margin:0 auto;
+  position: relative;  
+  width: 75%;
+  text-align: center;
+}
+#displayCities .row{
+    text-align: center;
+}
+body{
+    background-color: #343148;  
+}
+h1 {
+   
+    font-family: 'Oldenburg', Arial, sans-serif !important;
+    font-size: 4.0em !important;
+    line-height: 1.6em;
+    margin-bottom: 10px;
+    margin: 2%;
+    color: #fff;
+    margin-bottom: 50px!important;
+}
+h2{
+    font-weight: 900 !important;
+    font-size: 40px; 
+}
+#digestvalue{
+    color: #000;
+}
+.card-header{
+    font-weight: 700;
+    font-size: 35px;
+    color:#3c3b6e;
+}
+
+.w3-blue-no{
+    background-color: #bd2130!important;
+    color: #fff;
+    font-weight: 700;
+    font-size: 35px;
+ }
+.BTCUSD{
+    margin-top: -18px;
+    border:1px solid #bd2130;
+}
+canvas{
+    height: 700px !important;
+}
+.w3-jumbo{
+    font-size:50px!important;
+    color: #bd2130 !important;
+    font-weight:bold;
+}
+.w3-animate-fading-old{animation:fading 6s infinite}
+@keyframes flash{
+    20%
+    {opacity:0.2}
+    50%{opacity:0.5}
+    80%{opacity:0.8}
+}
+.card-body .row{
+   
+    line-height: 2.99 !important;
+    text-align: left;
+}
+.col-md-5{
+    padding-right: 1px !important;
+    font-size: 25px;
+}
+.col-md-7{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: #000;
+}
+.w3-animate-fading{animation:flash linear 1s}
+@keyframes flash{0%{opacity:.5}50%{opacity:.2}100%{opacity:1}}
+@-webkit-keyframes flash{0%{opacity:.5}50%{opacity:.2}100%{opacity:1}}
+/*.demo{-webkit-animation-name:demo;-webkit-animation-duration:.9s;-webkit-animation-iteration-count:1;-webkit-animation-timing-function:ease-in-out}
+@-webkit-keyframes demo{0%{background-color:#f0f1f3;opacity:0}100%,25%,75%{background-color:#f0f1f3}}*/
