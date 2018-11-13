@@ -164,8 +164,9 @@ function globalBtcUsdChart() {
         });
 }
 // call globalBtcUsd function every 5 seconds to display current price
-myvar = setInterval(globalBtcUsd, 5000);
+//myvar = setInterval(globalBtcUsd, 5000);
 //function to get last 2 hours data and calls drawBTCUSDchart
+globalBtcUsd();
 globalBtcUsdChart();
 // call drawBTCUSDchart to draw chart for 2 hours data
 
