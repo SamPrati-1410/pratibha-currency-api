@@ -149,7 +149,7 @@ function globalBtcUsdChart() {
             var timeNow = new Date();
             $.each(data, function (i, val) {
                 counterr++;
-                if (counterr <= 60) {
+                if (counterr <= 61) {
                     var arrTimeSplit = val["time"].split(' ');
 
                     arrChartDataX.push(arrTimeSplit[1].slice(-8, -3));
